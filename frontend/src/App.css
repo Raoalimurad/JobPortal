@@ -1,0 +1,97 @@
+
+
+.icon{
+    font-size: 70px;
+    cursor: pointer;
+    display: none;
+}
+.navbar{
+    display: flex;
+    font-weight: 500; /* Medium font weight */
+    gap: 1.25rem; /* This is equivalent to 20px (5 * 4px base unit) */
+    align-items: center;
+}
+.header{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* signup page */
+.signup{
+    width: 430px;
+    margin: 50px auto;
+    padding: 9px;
+    border-radius: 6px;
+    background-color: rgba(250, 235, 215, 0.562);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.signup h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 6px 0px;
+}
+
+.signup div input[type='text'],
+.signup div input[type='email'],
+.signup div input[type='number'],
+.signup div input[type='password'] {
+    margin-top: 12px;
+    width: 100%;
+    padding: 7px;
+    border-radius: 4px;
+   background: none;
+}
+.btn{
+    width: 100%;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 742px){
+    .icon{
+        display: flex;
+    }
+    .navbar{
+      display: none;
+    }
+    .showNavbar{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        padding: 22px;
+        top: 4.5%;
+        right: 3%;
+        width: 300px;
+        text-align: center;
+        text-align: center;
+        color: white;
+        background-color: black;
+        z-index: 50;
+    }
+}
+
+
+
